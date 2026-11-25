@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "leverflood",
+  "version": "${version}",
+  "name": "Lever Flood",
+  "description": "Right-click a lever with a block in hand: the lever is instantly flooded away and your block is placed in its spot, all in a single tick.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.leverflood.LeverFlood"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
